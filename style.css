@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+
+:root {
+         --cor-de-fundo: #1e1e1e;
+         --verde: #6fff57;
+        --branca: #ffffff;
+        --botao-ativo: #3a375e;
+        --botao-inativo: rgba(58,55,94,0.5);
+        --texto-fundo: rgba(58,55,94,0.3);
+         
+}
+body{
+    font-family: 'sigmar';
+    background-color: var(--cor-de-fundo);
+    color:var(--branca);
+}
+.conteudo-principal{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.titulo-principal{
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+
+}
+.titulo-principal span{
+    color: var(--verde);
+    
+
+}
